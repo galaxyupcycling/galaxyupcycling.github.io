@@ -3,7 +3,6 @@ body {
     color: #424242;
 }
 
-
 #nav_top {
     background-color: #8dc73f;
     text-align: center;
@@ -22,6 +21,8 @@ body {
 #nav_body {
     margin-top: 1.2em;
     text-align: center;
+    max-width: 800px;
+    margin: auto;
 }
 
 #nav_body h3 {
