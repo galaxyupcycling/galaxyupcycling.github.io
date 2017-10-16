@@ -19,21 +19,49 @@ body {
 }
 
 #nav_body {
-    margin-top: 1.2em;
+    margin-top: 10px;
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
+#nav_body .body-section {
+    margin-top: 50px;
+}
+
 #nav_body h3 {
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 10px;
 }
 
 #nav_body p {
     font-size: 13px;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#nav_body h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row-item img {
+    max-width: 200px;
+    border: 1px solid #dadada;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+    .row-item {
+        float: left;
+        width: 30%;
+        padding-left: 10px;
+
+        margin-bottom: 50px;
+    }
+
+    .row-item img {
+        width: 100%;
+    }
 }
 
 #nav_contact {
