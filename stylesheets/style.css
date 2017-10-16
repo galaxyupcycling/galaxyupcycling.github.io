@@ -1,20 +1,19 @@
-
-#nav_header1 {
-    background-image: url(../img/mainpage_green_img.jpg);
-
-    width: 100%;
-    height: 10em;
-    background-size: 100% 100%;
-    background-position: 50%;
-    background-repeat: no-repeat;    
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
 }
+
 
 #nav_top {
     background-color: #8dc73f;
     text-align: center;
 }
 
-@media (max-width: 1200px) {
+.main_img {
+    width: 900px;
+}
+
+@media (max-width: 900px) {
     .main_img {
         width: 100%;
     }
@@ -26,11 +25,27 @@
 }
 
 #nav_body h3 {
+    margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
 
-#nav_body .desc {
+#nav_body p {
     font-size: 13px;
     margin-left: 5em;
     margin-right: 5em;
+}
+
+#nav_contact {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+a:hover, a:focus {
+    color: #2c84bc;
+    text-decoration: underline;
+}
+
+a {
+    color: #2c84bc;
+    text-decoration: none;
 }
