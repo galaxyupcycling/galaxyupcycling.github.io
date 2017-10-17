@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #424242;
+    margin: 8px;
 }
 
 #nav_top {
@@ -87,17 +88,37 @@ body {
     }
 }
 
-#nav_contact {
-    margin-top: 50px;
-    margin-bottom: 30px;
+#nav_footer {
+    background-color: #22271a;
+    text-align: center;
+    padding: 10 60 10 60;
+    margin: -8px;
 }
 
-a:hover, a:focus {
-    color: #2c84bc;
+#nav_footer a {
+    color: white;
     text-decoration: underline;
 }
 
-a {
-    color: #2c84bc;
-    text-decoration: none;
+
+
+@media (min-width: 900px) {
+    padding: 10 100 10 100;
+}
+
+#nav_footer .footer_text {
+    width: 100%;
+    text-align: left;
+    margin: auto;
+}
+
+@media (min-width: 660px) {
+    #nav_footer .footer_text {
+        width: 650px;;
+    }
+}
+
+.footer_text p {
+    font-size: 11px;
+    color: white;
 }
