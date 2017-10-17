@@ -35,8 +35,7 @@ body {
 
 #nav_body p {
     font-size: 13px;
-    margin-left: 50px;
-    margin-right: 50px;
+    line-height: 1.6em;
 }
 
 #nav_body h5 {
@@ -51,6 +50,11 @@ body {
 }
 
 @media (min-width: 500px) {
+    #nav_body p {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
     .row {
         margin-left: 100px;
         margin-right: 100px;
@@ -72,6 +76,11 @@ body {
 }
 
 @media (max-width: 900px) {
+    #nav_body p {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
     .row {
         margin-left: 50px;
         margin-right: 50px;
