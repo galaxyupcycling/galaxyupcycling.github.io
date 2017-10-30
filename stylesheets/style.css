@@ -43,6 +43,20 @@ body {
     margin-top: 30px;
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.1%; /* 16:9 */
+    padding-top: 1px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #nav_body h3 {
     margin-bottom: 10px;
 }
